@@ -5,6 +5,7 @@ import "./App.css";
 import BasicTypes from "./components/basic-types";
 import ComplexTypes from "./components/complex-types";
 import StatelessComponent from "./components/stateless-component";
+import ClassComponent from "./components/class-component";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <BasicTypes />
         <ComplexTypes />
         <StatelessComponent message="This is a simple message" />
+        <ClassComponent />
       </header>
     </div>
   );
