@@ -8,6 +8,7 @@ import StatelessComponent from "./components/stateless-component";
 import ClassComponent from "./components/class-component";
 import Interface from "./components/interface";
 import StateComponent from "./components/state";
+import HOC from "./components/higher-order-component";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <ClassComponent />
         <Interface name="Clayton" message="This is a simple message" />
         <StateComponent />
+        <HOC />
       </header>
     </div>
   );
