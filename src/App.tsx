@@ -7,6 +7,7 @@ import ComplexTypes from "./components/complex-types";
 import StatelessComponent from "./components/stateless-component";
 import ClassComponent from "./components/class-component";
 import Interface from "./components/interface";
+import StateComponent from "./components/state";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <StatelessComponent message="This is a simple message" />
         <ClassComponent />
         <Interface name="Clayton" message="This is a simple message" />
+        <StateComponent />
       </header>
     </div>
   );
