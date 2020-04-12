@@ -4,6 +4,7 @@ import "./App.css";
 //Components
 import BasicTypes from "./components/basic-types";
 import ComplexTypes from "./components/complex-types";
+import StatelessComponent from "./components/stateless-component";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <BasicTypes />
         <ComplexTypes />
+        <StatelessComponent message="This is a simple message" />
       </header>
     </div>
   );
