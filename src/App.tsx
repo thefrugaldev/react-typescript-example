@@ -6,6 +6,7 @@ import BasicTypes from "./components/basic-types";
 import ComplexTypes from "./components/complex-types";
 import StatelessComponent from "./components/stateless-component";
 import ClassComponent from "./components/class-component";
+import Interface from "./components/interface";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <ComplexTypes />
         <StatelessComponent message="This is a simple message" />
         <ClassComponent />
+        <Interface name="Clayton" message="This is a simple message" />
       </header>
     </div>
   );
