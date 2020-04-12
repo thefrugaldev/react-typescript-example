@@ -1,28 +1,28 @@
 import React from "react";
 
 const BasicTypes: React.FC = () => {
-  let firstValue: string = "Clayton";
-  let secondValue: number = 21;
-  let thirdValue: boolean = true;
-  let fourthValue: number[] = [1, 2, 3, 4, 5]; //Note: Arrays in typescript are of type object
-  let fifthValue: Array<string> = ["the", "frugal", "dev"];
+  const stringValue: string = "Clayton";
+  const numberValue: number = 21;
+  const boolValue: boolean = true;
+  const numberArrayValue: number[] = [1, 2, 3, 4, 5]; //Note: Arrays in typescript are of type object
+  const stringArrayValue: Array<string> = ["the", "frugal", "dev"];
 
   return (
     <div>
       <p>
-        The value {firstValue} is of type {typeof firstValue}!
+        The value {stringValue} is of type {typeof stringValue}!
       </p>
       <p>
-        The value {secondValue} is of type {typeof secondValue}!
+        The value {numberValue} is of type {typeof numberValue}!
       </p>
       <p>
-        The value {thirdValue} is of type {typeof thirdValue}!
+        The value {boolValue} is of type {typeof boolValue}!
       </p>
       <p>
-        The value {fourthValue} is of type {typeof fourthValue}!
+        The value {numberArrayValue} is of type {typeof numberArrayValue}!
       </p>
       <p>
-        The value {fifthValue} is of type {typeof fifthValue}!
+        The value {stringArrayValue} is of type {typeof stringArrayValue}!
       </p>
     </div>
   );
